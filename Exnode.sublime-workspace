@@ -1,0 +1,293 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "p",
+		"selected_items":
+		[
+			[
+				"p",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Boxy Theme: Environment"
+			],
+			[
+				"skin",
+				"Select Skin"
+			],
+			[
+				"go",
+				"Goto Documentation"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Activation"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"Boxy Theme",
+				"Boxy Theme: Preferences"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"Crisp",
+				"Package Control: Install Package"
+			],
+			[
+				"P",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 510.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/A/Github/NodeJS/Exnode"
+	],
+	"file_history":
+	[
+		"/A/Github/NodeJS/Exnode/hello.js",
+		"/C/Users/Castelli/Documents/Sublime/Facebook Material Theme - Package Control Messages.sublime-settings",
+		"/C/Users/Castelli/Documents/Sublime/Seti_UI - Package Control Messages.sublime-setting",
+		"/C/Users/Castelli/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/A/Github/NodeJS/Exnode/.gitignore",
+		"/A/Github/NodeJS/Exnode/test file",
+		"/C/Users/Castelli/AppData/Roaming/Sublime Text 3/Packages/GitGutter/GitGutter.sublime-settings",
+		"/C/Users/Castelli/AppData/Roaming/Sublime Text 3/Packages/User/Git.sublime-settings",
+		"/A/Github/NodeJS/Exnode/views/index.html",
+		"/A/Github/NodeJS/Exnode/.gitattributes",
+		"/A/Github/NodeJS/Exnode/app.js",
+		"/A/Github/NodeJS/Exnode/views/styles.css",
+		"/C/Users/Castelli/Documents/Sublime/Markdown TOC- Package Control Messages.sublime-settings",
+		"/C/Users/Castelli/Documents/Sublime/GitHub Markdown Snippets - Package Control Messages.sublime-settings",
+		"/C/Users/Castelli/Documents/Sublime/Markdown Editing - Package Control Messages.sublime-settings",
+		"/C/Users/Castelli/Documents/Sublime/Markdown Preview - Package Control Messages.sublime-settings",
+		"/C/Users/Castelli/Documents/Sublime/Emmet - Package Control Messages.sublime-settings",
+		"/A/Github/NodeJS/Exnode/SublimeCodeIntel - Package Control Messages.sublime-settings",
+		"/C/Users/Castelli/Documents/Sublime/Docs Documentation -Package Control Messages",
+		"/C/Users/Castelli/Documents/Sublime/JavaScript Completions -- Package Control Messages.sublime-settings",
+		"/C/Users/Castelli/Documents/Sublime/Bootstrap 3 Jade - Snippets -Package Control Messages.sublime-settings",
+		"/C/Users/Castelli/AppData/Roaming/Sublime Text 3/Packages/User/Castelli (Boxed Material) - Preferences.sublime-settings",
+		"/C/Users/Castelli/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Castelli/AppData/Roaming/Sublime Text 3/Packages/User/colorcoder.sublime-settings",
+		"/C/Users/Castelli/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Castelli/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/A/Github/NodeJS/Exnode/package.json",
+		"/C/Users/Castelli/AppData/Roaming/Sublime Text 3/Packages/User/File Icons.sublime-settings",
+		"/A/Github/NodeJS/ExnodeTut/Exercise Files/03_04/finished/rouxmeet/package.json",
+		"/A/Github/NodeJS/ExnodeTut/Exercise Files/03_04/finished/rouxmeet/app.js",
+		"/C/Users/Castelli/Documents/Sublime/Icon Fonts - Package Control Messages",
+		"/C/Users/Castelli/Documents/Sublime/Agila Theme -Package Control Messages",
+		"/C/Users/Castelli/Documents/Sublime/SodaTheme Reloaded - Package Control Messages",
+		"/C/Users/Castelli/Documents/Sublime/Boxy Theme- Package Control Messages",
+		"/A/Github/NodeJS/ExnodeTut/Markmon real-time markdown preview-  Package Control Messages",
+		"/C/Users/Castelli/Documents/Sublime/Markdown Preview - Package Control Messages",
+		"/A/Github/NodeJS/ExnodeTut/Exercise Files/02_02/node/package.json",
+		"/A/Github/NodeJS/ExnodeTut/Exercise Files/01_01/finished/node/hello.js",
+		"/C/Users/Castelli/Documents/Sublime/JavaScript Completions  - Package Control Messages",
+		"/C/Users/Castelli/Documents/Sublime/JavaScript Ultimate - Package Control Messages",
+		"/A/Github/NodeJS/ExnodeTut/Exercise Files/03_04/finished/rouxmeet/data.json",
+		"/C/Users/Castelli/Documents/Sublime/Spacegray - Package Control Messages",
+		"/C/Users/Castelli/Documents/Sublime/Predawn - Package Control Messages",
+		"/C/Users/Castelli/Documents/Sublime/GITGUTTER - Package Control Messages",
+		"/C/Users/Castelli/Documents/Sublime/Emmet - Package Control Messages",
+		"/C/Users/Castelli/AppData/Roaming/Sublime Text 3/Packages/User/Castor - Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";\"></",
+			"theme",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 61.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.516042120552,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.GitSavvy":
+	{
+		"height": 154.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 124.0
+	},
+	"pinned_build_system": "",
+	"project": "Exnode.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 223.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
