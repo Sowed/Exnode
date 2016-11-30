@@ -21,6 +21,10 @@ app.get('/team/:name?/:skills?', function(request, response) {
     response.send('<h1>' + name + '</h1> Rocks this place.<br/>Did you know, he is a Rockstar at: ' + skills);
 });
 
+app.get('*', function(request, response) {
+	response.send('<h1>Well, seem you are lost</h1><br/>Go back to <a href="/">Home</a>');
+});
+
 var server = app.listen(3030, function() {
     console.log('Evesdropping on port 3030');
 });
