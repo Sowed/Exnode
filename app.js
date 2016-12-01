@@ -1,6 +1,15 @@
 var express = require('express');
 var app = express();
 
+app.set('view engine', 'jade');
+app.set('views', __dirname + '/views-jade');
+
+app.get('/', function(request, response) {
+    response.render('layout',{'title':'Tutor'});
+});
+
+
+/*
 app.get('/', function(request, response) {
     response.send('<h1>Hello</h1> Old Spot');
 });
@@ -24,6 +33,7 @@ app.get('/team/:name?/:skills?', function(request, response) {
 app.get('*', function(request, response) {
 	response.send('<h1>Well, seem you are lost</h1><br/>Go back to <a href="/">Home</a>');
 });
+*/
 
 var server = app.listen(3030, function() {
     console.log('Evesdropping on port 3030');
