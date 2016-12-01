@@ -1,8 +1,8 @@
 var express = require('express');
 var app = express();
 
-app.set('view engine', 'jade');
-app.set('views', __dirname + '/views-jade');
+app.set('view engine', 'ejs');
+app.set('views', __dirname + '/views');
 
 app.get('/', function(request, response) {
     response.render('layout',{'title':'Tutor'});

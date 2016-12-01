@@ -19,6 +19,7 @@
   "author": "Sowed Castelli",
   "license": "WTFPL",
   "dependencies": {
+    "ejs": "^2.5.3",
     "express": "^4.14.0",
     "jade": "^1.11.0"
   }
