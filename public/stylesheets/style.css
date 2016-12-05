@@ -41,9 +41,9 @@ body {
 
 h1 {
     margin: 20px 0px 10px;
-    font: 12px "Montserrat", Helvetica, sans-serif;
-    font-size: 32px;
-    text-shadow: 1px 1px 1px #aff;
+    font: 32px "Montserrat", Helvetica, sans-serif;
+    color: #2b2b2b;
+    text-shadow: 1px 1px 1px #bbb;
 }
 
 a {
