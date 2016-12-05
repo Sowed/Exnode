@@ -2,6 +2,11 @@ doctype html
 html
 	head
 		title=title
+		//-link(rel="shortcut icon" href="/favicon.ico")
+		link(rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat:regular,bold|Raleway")
+		link(rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:700|Raleway:400")
+		link(rel='stylesheet' href='/stylesheets/ionicons.css')
+		link(rel='stylesheet' href='/stylesheets/style.css')
 	body
 		header(id="header" class="main-nav")
 			nav
@@ -9,10 +14,12 @@ html
 					li
 						a(href="/" title="welcome") Home
 					li
-						a(href="/about" title="who we are") About
+						a(href="/users" title="who we are") Users
 					li
 						a(href="/contact" title="where to find us") Contact
-		main
 			div
-				h1 Welcome
-				p We are challendged by the un expected. And we live by the code all the time
+				h1
+					i(class="icon ion-ios-lightbulb-outline")
+					| #{title}
+				p We are challenged by the un expected. And we live by the code all the time
+				block main-content

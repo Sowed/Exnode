@@ -1,0 +1,52 @@
+/*
+"Sofia Pro", "Avenir Bookx", "Futura Bookx", "Bryant MOO Pro","Lucida Grande", "Lato", Helvetica, Arial, sans-serif;
+ */
+
+html,
+body,
+div,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+footer,
+nav,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+    font: 14px "Raleway", Helvetica, Arial, sans-serif;
+}
+
+body {
+    padding: 50px;
+    background: #ccc;
+    margin: 5px auto;
+    width: 70%;
+}
+
+.main-section {
+    padding: 20px;
+    background: #eef;
+    min-height: 300px;
+    text-align: center-box;
+    margin-top: 10px;
+}
+
+h1 {
+    margin: 20px 0px 10px;
+    font: 12px "Montserrat", Helvetica, sans-serif;
+    font-size: 32px;
+    text-shadow: 1px 1px 1px #aff;
+}
+
+a {
+    color: #00B7FF;
+    font: 12px "Montserrat", Helvetica, sans-serif;
+}

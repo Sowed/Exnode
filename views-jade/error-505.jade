@@ -1,0 +1,9 @@
+extends layout
+block main-content
+	div(class="main-section")
+		h1=message
+		h2=error.status
+		p #{title}
+		p #{error}
+		pre=error.stack
+	a(href="/") Get Home
