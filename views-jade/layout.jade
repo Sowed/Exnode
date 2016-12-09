@@ -8,7 +8,7 @@ html
 		link(rel='stylesheet' href='/css/ionicons.css')
 		link(rel='stylesheet' href='/css/style.css')
 	body
-		header(id="header" class="main-nav")
+		header#header.main-nav
 			nav
 				ul
 					li
@@ -19,7 +19,7 @@ html
 						a(href="/contact" title="where to find us") Contact
 			div
 				h1
-					i(class="icon ion-ios-lightbulb-outline" style="margin-right: 20px")
+					i.icon.ion-ios-lightbulb-outline(style="margin-right: 20px")
 					| #{title}
 				p We are challenged by the un expected. And we live by the code all the time
 				block main-content

@@ -1,4 +1,118 @@
-extends layout
-block main-content
-	div(class="main-section")
-		p(class="grid") We are all going to die some day, so it depends on who says "Hello First"
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    link(rel='apple-touch-icon', sizes='76x76', href='../img/apple-icon.png')
+    link(rel='icon', type='image/png', href='../img/favicon.ico')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    title=title
+    meta(content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0', name='viewport')
+    //- Fonts and icons
+    link(rel='stylesheet', href='https://fonts.googleapis.com/icon?family=Material+Icons')
+    //-link(rel='stylesheet', type='text/css', href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css')
+    //- CSS Files
+    link(href='../css/bootstrap.min.css', rel='stylesheet')
+    link(href='../css/material-kit.css', rel='stylesheet')
+
+    link(rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:400,700")
+    link(rel='stylesheet' href='/css/ionicons.css')
+    link(rel='stylesheet' href='/css/style.css')
+
+  body.landing-page
+    nav.navbar.navbar-transparent.navbar-fixed-top.navbar-color-on-scroll
+      .container
+        //- Brand and toggle get grouped for better mobile display
+        .navbar-header
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='#navigation-example')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a(href='/')
+            .logo-container
+              .logo
+                img(src='/img/logo.png', alt='Exnode Logo', rel='tooltip', title='<div class="small-tip"><b>Exnode</b> is a web app powered by <b>ExpressJs</b>, <b>NodeJs</b> and <b>Sweat</b></div>', data-placement='bottom', data-html='true')
+              .brand  Exnode
+        #navigation-example.collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            li
+              a(href='/users', rel='tooltip',  title='<div class="small-tip">There are currently <b>12 Users</b> online</div>', data-placement='bottom', data-html='true') Users
+            li
+              a(href='/') About
+            li
+              a(href='/', rel='tooltip',  title='<div class="small-tip">Well, it looks like you are not SignedIn.</div>', data-placement='bottom', data-html='true') Login
+            li
+              a.btn.btn-simple.btn-white.btn-just-icon(href='#')
+                i(class="icon ion-social-facebook")
+            li
+              a.btn.btn-simple.btn-white.btn-just-icon(href='#')
+                i(class="icon ion-social-twitter")
+            li
+              a.btn.btn-simple.btn-white.btn-just-icon(href='#')
+                i(class="icon ion-social-github")
+    .wrapper 
+      .header.header-filter
+        .container
+          .row
+            .col-md-8.col-md-offset-2
+              .brand
+                h1 Expressing Node
+                h3 A MEAN app built on Emotions, Tears, Sweat, Blood, Coffee and Sleepless Nights 
+      .main.main-raised
+        .container
+          .section.text-center.section-landing
+            .row
+              .col-md-8.col-md-offset-2
+                h2.title 
+                  b What Exactly is Exnode?
+                h5.description
+                  | You are probably wondering, what is being Expressed. Just so you know, NodeJS is awesome and ExpressJS even makes it more awesome when backed by MongoDB. The fact this is a Hobby project even makes it more fun. Planning on integrating it with ReactJS later but I might fallback on AngularJS. Not because am all Mathematical, but just feeling a little M.E.A.N. About what is does, carry on!
+            .features
+              .row
+                .col-md-4
+                  .info
+                    .icon
+                      i.icon.ion-ios-color-filter-outline
+                    h4.info-title Tightly Intergrated
+                    p
+                      | NPM ready. Just run `npm install --save exnode` and you will be up and running with a MEAN stacked app. Exnode is regularly updated with every update of its dependencies.
+                .col-md-4
+                  .info
+                    .icon
+                      i.icon.ion-ios-cog-outline
+                    h4.info-title Beautifully Setup
+                    p
+                      |Designers and developers alike will really love Exnode. Based on Material Bootstrap by Creative Tim on the looks and Pure JS on the back, Exnode pleases the eye anytime.
+                .col-md-4
+                  .info
+                    .icon
+                      i.icon.ion-ios-compose-outline
+                    h4.info-title Notetaking Rebooted
+                    p
+                      | For now, let's assume this is a Note taking ToDo app, because calling it Hello World is old fashioned. May be a Social Networking app later, but well, that for later.
+      footer.footer
+        .container
+          nav.pull-left
+            ul
+              li
+                a(href='/') Exnode
+              li
+                a(href='/') Contact
+              li
+                a(href='https://www.twitter.com/exnode') Tweet
+          .copyright.pull-right
+            | © 2016, made with 
+            i.icon.ion-ios-heart 
+            | by 
+            a(href='https://www.twitter.com/iamcastelli' target='_blank') Sowed Castelli
+  //- Core JS Files
+  script(src='../js/jquery.min.js', type='text/javascript')
+  script(src='../js/bootstrap.min.js', type='text/javascript')
+  script(src='../js/material.min.js')
+  //- Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/
+  script(src='../js/nouislider.min.js', type='text/javascript')
+  //- Plugin for the Datepicker, full documentation here: http://www.eyecon.ro/bootstrap-datepicker/
+  script(src='../js/bootstrap-datepicker.js', type='text/javascript')
+  //- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc
+  script(src='../js/material-kit.js', type='text/javascript')
